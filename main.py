@@ -20,7 +20,7 @@ with open(book_path) as get_book_text:
 from stats import sort_dict
 sortword = sort_dict(word_dict)
 print("============ BOOKBOT ============")
-print("Analyzing book found at books/frankenstein.txt...")
+print(f"Analyzing book found at {book_path}...")
 print("----------- Word Count ----------")
 print("Found", num_of_words, "total words")
 print("--------- Character Count -------")
